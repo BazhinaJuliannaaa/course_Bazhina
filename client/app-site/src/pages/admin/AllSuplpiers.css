@@ -1,0 +1,45 @@
+.all-accept {
+    width: 90%;
+    background-color:rgb(99, 98, 98);
+    margin-top: 50px;
+    margin-left: 5%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+    text-align: center;
+
+}
+
+.accept-yes, .accept-no{
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color:  rgb(104, 103, 103);
+    color: white;
+}
+
+.accept-yes:hover, .accept-no:hover{
+    background-color: rgb(135, 142, 181);
+}
+
+.accept-name{
+    margin-right: 80px;
+    margin-left: 20px;
+    font-size: 20pt;
+    color: #ffffff;
+}
+.accept-no{
+    margin-left: 20px;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color:  rgb(104, 103, 103);
+    color: white;
+}
+.print-name{
+    margin-right: 80px;
+    margin-left: 20px;
+    font-size: 16pt;
+    color: #ffffff;
+
+}

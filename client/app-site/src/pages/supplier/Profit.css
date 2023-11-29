@@ -1,0 +1,38 @@
+.profit-card{
+    width: 50%;
+    background-color: rgb(61, 61, 61);
+    margin-top: 20px;
+    margin-left: 25%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+    color: white;
+    text-align: center;
+}
+.profit-card-date{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.go-profit{
+    width: 40%;
+
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(97, 96, 96); 
+    color:#ffffff;
+}
+.go-profit:hover{
+    background-color: rgb(135, 142, 181);
+}
+.date-picker-container {
+    margin-left: 17%;
+    display: flex;
+    align-items: center;
+  }
+  .incorrect-date{
+    color:rgb(136, 46, 46);
+    
+  }

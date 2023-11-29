@@ -1,0 +1,77 @@
+.new-card{
+    width: 50%;
+    background-color: rgb(61, 61, 61);
+    margin-top: 20px;
+    margin-left: 25%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+    color: white;
+}
+
+.label-new-card{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.input-new-card{
+    width: 40%;
+    margin-left: 30px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(97, 96, 96); 
+
+}
+.add-new-card{
+    width: 40%;
+    margin-left: 30px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(97, 96, 96); 
+    color:#ffffff;
+    
+}
+.input-cost-quantity{
+    width: 10%;
+    margin-left: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(97, 96, 96); 
+}
+.text-new-card{
+    width: 97%;
+    height: 250px;
+    resize: none; 
+    color: #ffffff;
+    background-color: rgb(97, 96, 96); 
+    border-radius: 10px;
+} 
+.text-new-card:hover, .add-new-card:hover,.input-new-card:hover{
+    background-color: rgb(135, 142, 181);
+}
+.btn-add{
+    text-align: center;
+}
+.no {
+    background-color: #707070;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
+
+}
+
+.no label {
+    font-size: 30pt;
+    height: 500px;
+    margin-top: 200px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-right: 70px;
+}

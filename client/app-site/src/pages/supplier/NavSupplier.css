@@ -1,0 +1,78 @@
+.navbar {
+  background-color: #000000;
+  color: #ffffff; /* Белый цвет текста */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.7);
+}
+
+.navbar-type {
+  color: #ffffff; /* Белый цвет текста */
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links a {
+  color: #ffffff; /* Белый цвет текста */
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  transition: color 0.3s; /* Плавное изменение цвета текста */
+}
+
+.navbar-links a:hover {
+  color:  rgb(135, 142, 181); /* Цвет текста при наведении */
+}
+
+.navbar-logout button {
+  color: #ffffff; /* Белый цвет текста */
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: underline;
+  transition: color 0.3s; /* Плавное изменение цвета текста */
+}
+
+.navbar-logout button:hover {
+  color: rgb(135, 142, 181); /* Цвет текста при наведении */
+}
+
+.navbar-links a,
+.navbar-logout button {
+transition: color 0.3s; /* Плавное изменение цвета текста */
+padding: 10px 20px;
+border-radius: 5px;
+}
+
+/* Стили для активной ссылки в NavBar */
+.navbar-links a.active,
+.navbar-links a:hover,
+.navbar-logout button:hover {
+background-color:  rgb(135, 142, 181); /* Фон при наведении */
+
+color: #ffffff; /* Цвет текста при наведении */
+transition: background-color 0.5s, color 0.5s, border-color 0.5s; /* Плавные анимации */
+
+}
+
+/* Дополнительные стили для кнопки "Выйти" */
+.navbar-logout button {
+margin-left: 20px; /* Отступ слева */
+padding: 8px 16px; /* Поля кнопки */
+border: 1px solid  rgb(135, 142, 181); /* Граница */
+cursor: pointer;
+font-size: 16px;
+text-decoration: none;
+background-color: #000000;
+transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Плавные анимации */
+}
+
+/* Стили для кнопки "Выйти" при наведении */
+.navbar-logout button:hover {
+background-color: #754040; /* Фон при наведении */
+color: #f0eef1; /* Цвет текста при наведении */
+border-color: #552c2c; /* Цвет границы при наведении */
+}
+

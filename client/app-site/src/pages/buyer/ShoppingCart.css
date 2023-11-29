@@ -1,0 +1,139 @@
+.shopping-cart {
+    width: 90%;
+    background-color: rgb(49, 49, 49);
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+    color: aliceblue;
+
+}
+.cart-items{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.shopping-cart h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cart-item-details h3{
+    margin-top: 15px;
+    height: 100px;
+    
+}
+.cart-item{
+    padding-top: 20px;
+    width: 250px;
+    height: 500px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    color: #fff;
+    background-color:rgb(104, 103, 103);
+    text-align: center;
+
+}
+
+.cart-item-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+.change-adr{
+    margin-left: 20px;
+    border-radius: 7px;
+    background-color: rgb(104, 103, 103);
+    border: 0px;
+    color: #fff;
+
+}
+.count {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.count label{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.num{
+    height: 30px;
+    width: 30px;
+    font-size: 10pt;
+    font-weight:bold ;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border-radius: 7px;
+    background-color: rgb(104, 103, 103);
+    border: 0px;
+    color: #fff;
+
+}
+.num:hover{
+    background-color: rgb(90, 89, 89);
+}
+
+.btn-delete{
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color:  rgb(104, 103, 103);
+    color: white;
+}
+
+.btn-delete:hover , .change-adr:hover{
+    background-color: rgb(135, 142, 181);
+}
+
+.adr{
+    background-color: rgb(109, 109, 109);
+    color:  #fff;
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 10px;
+    border: 0px;
+}
+.adr:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+
+}
+.btn-reg{
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+    background-color:  rgb(104, 103, 103);
+    color: white;
+    border: 0px;
+    width: 30%;
+}
+
+.btn-reg:hover {
+    background-color: rgb(135, 142, 181);
+}
+
+.total-price label{
+    margin-right: 20px;
+}
+
+.category-name{
+    margin-right: 80px;
+    margin-left: 20px;
+}
